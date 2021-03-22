@@ -3,14 +3,17 @@
 ## Purpose: Test binding affinity of HBV peptides to HLA
 
 ### Source 
-**HBV Reference Sequences:**
+**HBV Reference Sequences: Complete genome**
 
 HBV reference sequences are downloaded from HBVdb
 ```
 wget https://hbvdb.lyon.inserm.fr/data/references/hbvdbr.fas
 ```
-
 Note: HBVdb recognizes 8 genotypes of HBV (A-H), and each genotype has 2 reference sequences, so in total we have 16 sequences. 
+
+**HBV Reference Sequences: Coding-regions only**
+Coding sequences of previous HBV can be found here: https://hbvdb.lyon.inserm.fr/HBVdb/HBVdbDataset?seqtype=0
+Download Genotype "All" for each protein of interest and filter for the reference sequences 
 
 **HLA alleles:**
 Class I and Class II 
