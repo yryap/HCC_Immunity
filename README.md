@@ -11,3 +11,15 @@ This project can be split into three parts:
 1. Predict HLA binding to HBV peptides
 2. Gather allele frequency from liver cancer population and the general population
 3. Perform Fisher's test to test allele association with HBV-mediated liver cancer
+
+## Methods
+### Predict HLA Binding
+Software used: DTU Health Tech netMHCpan-4.1 and netMHCIIpan-4.0
+
+Details can be found in hla_binding/README.md
+
+### Gather allele frequency
+Software used: SyntekabioTools HLAScan
+
+### Fisher's test
+Software used: R
