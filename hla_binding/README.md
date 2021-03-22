@@ -1,4 +1,4 @@
-# HCC_Immunity
+# HLA Binding
 
 ## Purpose: Test binding affinity of HBV peptides to HLA
 
