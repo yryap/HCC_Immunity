@@ -12,5 +12,5 @@ module purge
 
 srun -n 1 array_hla_typing.sh $SLURM_ARRAY_TASK_ID
 
-# script will spawn 790 separate instance of the array_hla_typing.sh
+# script will spawn 790 separate instance of the hla_typing.sh
 # all jobs are independently able to run and order of completion of each sub-job is not important
